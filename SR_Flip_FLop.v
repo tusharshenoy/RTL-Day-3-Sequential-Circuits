@@ -7,6 +7,7 @@ begin
     if (reset)
     begin
         Q <= 1'b1;
+        Qb <= 1'b0;
     end
     else
     begin
@@ -16,7 +17,7 @@ begin
             2'b10: Q= 1'b1;
             2'b11: Q= 1'bx;
         endcase
+         Qb=~Q;
     end
-    Qb=~Q;
 end
 endmodule
