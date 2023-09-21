@@ -17,5 +17,5 @@ reset=1'b1;
 #8   $finish;
 end
 
-always #5 clk=~clk;
+always #1 clk=~clk;
 endmodule
