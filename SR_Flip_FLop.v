@@ -2,7 +2,7 @@ module SR_Flip_Flop ( S, R, clk, reset,Q, Qb);
  input S, R, clk, reset;
  output reg Q,Qb;
  
-always @(posedge clk or reset) // Posedge clock and asynchronous Reset
+ always @(posedge clk or posedge reset) // Posedge clock and asynchronous Reset
 begin
     if (reset)
     begin
