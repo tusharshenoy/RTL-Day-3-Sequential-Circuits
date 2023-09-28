@@ -1,5 +1,5 @@
 # RTL-Day-3-Sequential-Circuits
-
+[Table](https://github.com/tusharshenoy/RTL-Day-3-Sequential-Circuits/edit/main/README.md#t-flip-flop)
 
 ## Problem Statement: Implementing Sequential Circuits i.e. SR Flip Flop, D Flip-flop, T Flip-flop and JK Flip-flop.
 
